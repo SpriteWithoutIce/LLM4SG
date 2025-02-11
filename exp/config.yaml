@@ -1,0 +1,8 @@
+trainPath: "../dataset/action/train_dataset_yzt_0815.csv"
+testPath: "../dataset/action/test_dataset_yzt_0815.csv"
+outputPath: "yzt_0815.txt"
+outputcsv: "./answer/total_1213_neg.csv"
+outputcsv1: "./answer/total_1213_neg.csv"
+outputcsv2: "./answer/total_1213_neg.csv"
+
+label: true

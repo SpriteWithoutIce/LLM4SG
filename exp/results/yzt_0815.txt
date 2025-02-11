@@ -1,0 +1,65 @@
+Decision_tree
+Accuracy: 0.7777777777777778
+              precision    recall  f1-score   support
+
+           0       0.31      0.31      0.31        13
+           1       0.76      0.85      0.81        34
+           2       1.00      0.90      0.95        20
+           3       0.83      0.80      0.82        50
+
+    accuracy                           0.78       117
+   macro avg       0.73      0.72      0.72       117
+weighted avg       0.78      0.78      0.78       117
+
+KNN
+Accuracy: 0.8547008547008547
+              precision    recall  f1-score   support
+
+           0       0.50      0.31      0.38        13
+           1       0.73      0.94      0.82        34
+           2       1.00      0.95      0.97        20
+           3       0.98      0.90      0.94        50
+
+    accuracy                           0.85       117
+   macro avg       0.80      0.77      0.78       117
+weighted avg       0.86      0.85      0.85       117
+
+Logistic
+Accuracy: 0.6666666666666666
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        13
+           1       0.48      0.79      0.60        34
+           2       1.00      0.90      0.95        20
+           3       0.77      0.66      0.71        50
+
+    accuracy                           0.67       117
+   macro avg       0.56      0.59      0.56       117
+weighted avg       0.64      0.67      0.64       117
+
+RandomForest
+Accuracy: 0.8717948717948718
+              precision    recall  f1-score   support
+
+           0       0.57      0.31      0.40        13
+           1       0.84      0.94      0.89        34
+           2       1.00      0.90      0.95        20
+           3       0.89      0.96      0.92        50
+
+    accuracy                           0.87       117
+   macro avg       0.83      0.78      0.79       117
+weighted avg       0.86      0.87      0.86       117
+
+SVM
+Accuracy: 0.6666666666666666
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        13
+           1       0.47      0.91      0.62        34
+           2       1.00      0.90      0.95        20
+           3       0.88      0.58      0.70        50
+
+    accuracy                           0.67       117
+   macro avg       0.59      0.60      0.57       117
+weighted avg       0.68      0.67      0.64       117
+
