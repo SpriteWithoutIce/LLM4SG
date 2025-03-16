@@ -1,0 +1,12 @@
+train_dataset_name: "./dataset/action-im/train_dataset_zxy_im.csv"
+test_dataset_name: "./dataset/action-im/test_dataset_zxy_im.csv"
+test_label_name: "./dataset/action-im/test_label_zxy_im.csv"
+
+answer_label_name: "./answer/zxy_model_with_labels.csv"
+model_name: "./save_models/model_zxy.pt"
+answer_csv_name: "./answer/zxy_model.csv"
+
+label: 5
+
+wandb: True
+name: "LSTM_action-im_zxy"

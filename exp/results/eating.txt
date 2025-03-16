@@ -1,0 +1,60 @@
+Decision_tree
+Accuracy: 0.9655172413793104
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98        54
+           1       0.92      1.00      0.96        45
+           2       1.00      0.88      0.94        17
+
+    accuracy                           0.97       116
+   macro avg       0.97      0.95      0.96       116
+weighted avg       0.97      0.97      0.97       116
+
+KNN
+Accuracy: 0.8706896551724138
+              precision    recall  f1-score   support
+
+           0       0.91      0.93      0.92        54
+           1       0.82      0.89      0.85        45
+           2       0.92      0.65      0.76        17
+
+    accuracy                           0.87       116
+   macro avg       0.88      0.82      0.84       116
+weighted avg       0.87      0.87      0.87       116
+
+Logistic
+Accuracy: 0.7068965517241379
+              precision    recall  f1-score   support
+
+           0       0.83      0.74      0.78        54
+           1       0.62      0.89      0.73        45
+           2       0.50      0.12      0.19        17
+
+    accuracy                           0.71       116
+   macro avg       0.65      0.58      0.57       116
+weighted avg       0.70      0.71      0.68       116
+
+RandomForest
+Accuracy: 0.9482758620689655
+              precision    recall  f1-score   support
+
+           0       0.98      0.94      0.96        54
+           1       0.90      1.00      0.95        45
+           2       1.00      0.82      0.90        17
+
+    accuracy                           0.95       116
+   macro avg       0.96      0.92      0.94       116
+weighted avg       0.95      0.95      0.95       116
+
+SVM
+Accuracy: 0.7586206896551724
+              precision    recall  f1-score   support
+
+           0       0.88      0.78      0.82        54
+           1       0.66      0.91      0.77        45
+           2       0.83      0.29      0.43        17
+
+    accuracy                           0.76       116
+   macro avg       0.79      0.66      0.67       116
+weighted avg       0.79      0.76      0.74       116
+

@@ -1,0 +1,34 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+True True
+Traceback (most recent call last):
+  File "/autodl-fs/data/run.py", line 40, in <module>
+    wandb.init(
+  File "/root/miniconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1433, in init
+    wi.maybe_login(init_settings)
+  File "/root/miniconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 175, in maybe_login
+    wandb_login._login(
+  File "/root/miniconda3/lib/python3.12/site-packages/wandb/sdk/wandb_login.py", line 316, in _login
+    wlogin._print_logged_in_message()
+  File "/root/miniconda3/lib/python3.12/site-packages/wandb/sdk/wandb_login.py", line 132, in _print_logged_in_message
+    username = self._wandb_setup._get_username()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/wandb/sdk/wandb_setup.py", line 182, in _get_username
+    return self.viewer.get("username")
+           ^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/wandb/sdk/wandb_setup.py", line 197, in viewer
+    return self._server.viewer
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/wandb/sdk/lib/server.py", line 56, in viewer
+    self.query_with_timeout()
+  File "/root/miniconda3/lib/python3.12/site-packages/wandb/sdk/lib/server.py", line 31, in query_with_timeout
+    viewer_tuple, viewer_thread = async_viewer()
+                                  ^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/wandb/util.py", line 1230, in wrapper
+    result = q.get(True, timeout)
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "/root/miniconda3/lib/python3.12/threading.py", line 359, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

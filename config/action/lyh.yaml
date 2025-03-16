@@ -1,6 +1,6 @@
-train_dataset_name: "./data/train_dataset_lyh_2.csv"
-test_dataset_name: "./data/test_dataset_lyh_2.csv"
-test_label_name: "./data/test_label_lyh_2.csv"
+train_dataset_name: "./dataset/action/train_dataset_lyh_2.csv"
+test_dataset_name: "./dataset/action/test_dataset_lyh_2.csv"
+test_label_name: "./dataset/action/test_label_lyh_2.csv"
 
 answer_label_name: "./answer/lyh_2_model_with_labels.csv"
 model_name: "./save_models/model_lyh_2.pt"
@@ -9,4 +9,4 @@ answer_csv_name: "./answer/lyh_2_model.csv"
 label: 5
 
 wandb: True
-name: "GPT2_action_lyh_2"
+name: "LSTM_action_lyh_2"

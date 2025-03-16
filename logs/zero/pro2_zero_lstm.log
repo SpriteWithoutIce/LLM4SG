@@ -1,0 +1,412 @@
+wandb: Currently logged in as: 22373442 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.19.6
+wandb: Run data is saved locally in /autodl-fs/data/wandb/run-20250305_105806-iyr9rlt7
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LSTM_pro2_zero
+wandb: ⭐️ View project at https://wandb.ai/22373442/LLM_signal
+wandb: 🚀 View run at https://wandb.ai/22373442/LLM_signal/runs/iyr9rlt7
+True True
+Epoch [1/100], Loss: 1.3184, Accuracy: 0.4451
+test_loss: 1.0225, test_accuracy: 0.4922
+test_loss: 0.8457, test_accuracy: 0.5706
+best/test_loss 1.022483229637146, best/test_acc: 0.4921875
+Epoch [2/100], Loss: 0.8747, Accuracy: 0.6176
+test_loss: 0.7499, test_accuracy: 0.6250
+test_loss: 0.7239, test_accuracy: 0.6667
+best/test_loss 0.7498892545700073, best/test_acc: 0.625
+Epoch [3/100], Loss: 0.7997, Accuracy: 0.6020
+test_loss: 0.8570, test_accuracy: 0.6094
+test_loss: 0.7589, test_accuracy: 0.6949
+best/test_loss 0.7498892545700073, best/test_acc: 0.625
+Epoch [4/100], Loss: 0.7835, Accuracy: 0.6314
+test_loss: 0.7205, test_accuracy: 0.6719
+test_loss: 0.6498, test_accuracy: 0.6949
+best/test_loss 0.7204970121383667, best/test_acc: 0.671875
+Epoch [5/100], Loss: 0.7694, Accuracy: 0.6490
+test_loss: 0.7203, test_accuracy: 0.6719
+test_loss: 0.6333, test_accuracy: 0.7345
+best/test_loss 0.7203341722488403, best/test_acc: 0.671875
+Epoch [6/100], Loss: 0.7650, Accuracy: 0.6392
+test_loss: 0.8270, test_accuracy: 0.6562
+test_loss: 0.7264, test_accuracy: 0.7175
+best/test_loss 0.7203341722488403, best/test_acc: 0.671875
+Epoch [7/100], Loss: 0.7238, Accuracy: 0.6706
+test_loss: 0.7044, test_accuracy: 0.6875
+test_loss: 0.5766, test_accuracy: 0.7232
+best/test_loss 0.7044280171394348, best/test_acc: 0.6875
+Epoch [8/100], Loss: 0.7108, Accuracy: 0.6804
+test_loss: 0.6998, test_accuracy: 0.6719
+test_loss: 0.6948, test_accuracy: 0.6949
+best/test_loss 0.699781060218811, best/test_acc: 0.6875
+Epoch [9/100], Loss: 0.7306, Accuracy: 0.6569
+test_loss: 0.7155, test_accuracy: 0.6484
+test_loss: 0.6193, test_accuracy: 0.7401
+best/test_loss 0.699781060218811, best/test_acc: 0.6875
+Epoch [10/100], Loss: 0.6870, Accuracy: 0.7000
+test_loss: 0.7011, test_accuracy: 0.7188
+test_loss: 0.5976, test_accuracy: 0.7288
+best/test_loss 0.699781060218811, best/test_acc: 0.71875
+Epoch [11/100], Loss: 0.6817, Accuracy: 0.6902
+test_loss: 0.7072, test_accuracy: 0.6641
+test_loss: 0.5909, test_accuracy: 0.7175
+best/test_loss 0.699781060218811, best/test_acc: 0.71875
+Epoch [12/100], Loss: 0.8683, Accuracy: 0.6353
+test_loss: 0.9102, test_accuracy: 0.5469
+test_loss: 0.8194, test_accuracy: 0.6271
+best/test_loss 0.699781060218811, best/test_acc: 0.71875
+Epoch [13/100], Loss: 0.7680, Accuracy: 0.6353
+test_loss: 0.7237, test_accuracy: 0.6797
+test_loss: 0.6967, test_accuracy: 0.7401
+best/test_loss 0.699781060218811, best/test_acc: 0.71875
+Epoch [14/100], Loss: 0.7363, Accuracy: 0.6765
+test_loss: 0.8458, test_accuracy: 0.6641
+test_loss: 0.6761, test_accuracy: 0.7175
+best/test_loss 0.699781060218811, best/test_acc: 0.71875
+Epoch [15/100], Loss: 0.7155, Accuracy: 0.7078
+test_loss: 0.7237, test_accuracy: 0.6719
+test_loss: 0.6404, test_accuracy: 0.7232
+best/test_loss 0.699781060218811, best/test_acc: 0.71875
+Epoch [16/100], Loss: 0.7142, Accuracy: 0.6863
+test_loss: 0.7177, test_accuracy: 0.6484
+test_loss: 0.5738, test_accuracy: 0.7401
+best/test_loss 0.699781060218811, best/test_acc: 0.71875
+Epoch [17/100], Loss: 0.6912, Accuracy: 0.7059
+test_loss: 0.7204, test_accuracy: 0.6797
+test_loss: 0.6124, test_accuracy: 0.6893
+best/test_loss 0.699781060218811, best/test_acc: 0.71875
+Epoch [18/100], Loss: 0.7037, Accuracy: 0.6745
+test_loss: 0.7123, test_accuracy: 0.6562
+test_loss: 0.6277, test_accuracy: 0.7119
+best/test_loss 0.699781060218811, best/test_acc: 0.71875
+Epoch [19/100], Loss: 0.6836, Accuracy: 0.7196
+test_loss: 0.6907, test_accuracy: 0.7344
+test_loss: 0.6001, test_accuracy: 0.7514
+best/test_loss 0.6906923651695251, best/test_acc: 0.734375
+Epoch [20/100], Loss: 0.6667, Accuracy: 0.7196
+test_loss: 0.7033, test_accuracy: 0.7031
+test_loss: 0.5614, test_accuracy: 0.7797
+best/test_loss 0.6906923651695251, best/test_acc: 0.734375
+Epoch [21/100], Loss: 0.6487, Accuracy: 0.7412
+test_loss: 0.6713, test_accuracy: 0.7422
+test_loss: 0.5897, test_accuracy: 0.7175
+best/test_loss 0.67125004529953, best/test_acc: 0.7421875
+Epoch [22/100], Loss: 0.6384, Accuracy: 0.7392
+test_loss: 0.6727, test_accuracy: 0.7266
+test_loss: 0.5373, test_accuracy: 0.7684
+best/test_loss 0.67125004529953, best/test_acc: 0.7421875
+Epoch [23/100], Loss: 0.6406, Accuracy: 0.7176
+test_loss: 0.6958, test_accuracy: 0.6875
+test_loss: 0.5651, test_accuracy: 0.7514
+best/test_loss 0.67125004529953, best/test_acc: 0.7421875
+Epoch [24/100], Loss: 0.6370, Accuracy: 0.7275
+test_loss: 0.6680, test_accuracy: 0.7422
+test_loss: 0.5414, test_accuracy: 0.8023
+best/test_loss 0.6680217981338501, best/test_acc: 0.7421875
+Epoch [25/100], Loss: 0.6960, Accuracy: 0.6922
+test_loss: 0.7089, test_accuracy: 0.6953
+test_loss: 0.6000, test_accuracy: 0.6949
+best/test_loss 0.6680217981338501, best/test_acc: 0.7421875
+Epoch [26/100], Loss: 0.6753, Accuracy: 0.7157
+test_loss: 0.7516, test_accuracy: 0.6953
+test_loss: 0.5989, test_accuracy: 0.7401
+best/test_loss 0.6680217981338501, best/test_acc: 0.7421875
+Epoch [27/100], Loss: 0.7225, Accuracy: 0.7000
+test_loss: 0.6803, test_accuracy: 0.7109
+test_loss: 0.5413, test_accuracy: 0.7740
+best/test_loss 0.6680217981338501, best/test_acc: 0.7421875
+Epoch [28/100], Loss: 0.6673, Accuracy: 0.7098
+test_loss: 0.7002, test_accuracy: 0.6953
+test_loss: 0.6031, test_accuracy: 0.7684
+best/test_loss 0.6680217981338501, best/test_acc: 0.7421875
+Epoch [29/100], Loss: 0.6745, Accuracy: 0.7157
+test_loss: 0.6738, test_accuracy: 0.7109
+test_loss: 0.5890, test_accuracy: 0.7571
+best/test_loss 0.6680217981338501, best/test_acc: 0.7421875
+Epoch [30/100], Loss: 0.6430, Accuracy: 0.7196
+test_loss: 0.7071, test_accuracy: 0.7031
+test_loss: 0.5639, test_accuracy: 0.7627
+best/test_loss 0.6680217981338501, best/test_acc: 0.7421875
+Epoch [31/100], Loss: 0.6191, Accuracy: 0.7255
+test_loss: 0.6405, test_accuracy: 0.7422
+test_loss: 0.5377, test_accuracy: 0.7910
+best/test_loss 0.640466570854187, best/test_acc: 0.7421875
+Epoch [32/100], Loss: 0.6284, Accuracy: 0.7451
+test_loss: 0.6556, test_accuracy: 0.6953
+test_loss: 0.5726, test_accuracy: 0.7797
+best/test_loss 0.640466570854187, best/test_acc: 0.7421875
+Epoch [33/100], Loss: 0.6417, Accuracy: 0.7255
+test_loss: 0.6625, test_accuracy: 0.7344
+test_loss: 0.5651, test_accuracy: 0.7853
+best/test_loss 0.640466570854187, best/test_acc: 0.7421875
+Epoch [34/100], Loss: 0.5970, Accuracy: 0.7490
+test_loss: 0.6415, test_accuracy: 0.7422
+test_loss: 0.5167, test_accuracy: 0.7853
+best/test_loss 0.640466570854187, best/test_acc: 0.7421875
+Epoch [35/100], Loss: 0.5669, Accuracy: 0.7765
+test_loss: 0.6121, test_accuracy: 0.7344
+test_loss: 0.4982, test_accuracy: 0.7910
+best/test_loss 0.6121140718460083, best/test_acc: 0.7421875
+Epoch [36/100], Loss: 0.5814, Accuracy: 0.7294
+test_loss: 0.6884, test_accuracy: 0.7188
+test_loss: 0.5632, test_accuracy: 0.7740
+best/test_loss 0.6121140718460083, best/test_acc: 0.7421875
+Epoch [37/100], Loss: 0.6562, Accuracy: 0.7490
+test_loss: 0.7345, test_accuracy: 0.6875
+test_loss: 0.5872, test_accuracy: 0.7175
+best/test_loss 0.6121140718460083, best/test_acc: 0.7421875
+Epoch [38/100], Loss: 0.6362, Accuracy: 0.7667
+test_loss: 0.6592, test_accuracy: 0.7109
+test_loss: 0.5549, test_accuracy: 0.7571
+best/test_loss 0.6121140718460083, best/test_acc: 0.7421875
+Epoch [39/100], Loss: 0.6202, Accuracy: 0.7529
+test_loss: 0.6150, test_accuracy: 0.7344
+test_loss: 0.5216, test_accuracy: 0.7514
+best/test_loss 0.6121140718460083, best/test_acc: 0.7421875
+Epoch [40/100], Loss: 0.6270, Accuracy: 0.7412
+test_loss: 0.6490, test_accuracy: 0.7188
+test_loss: 0.5427, test_accuracy: 0.7627
+best/test_loss 0.6121140718460083, best/test_acc: 0.7421875
+Epoch [41/100], Loss: 0.5837, Accuracy: 0.7588
+test_loss: 0.5760, test_accuracy: 0.7734
+test_loss: 0.4634, test_accuracy: 0.8192
+best/test_loss 0.5759984850883484, best/test_acc: 0.7734375
+Epoch [42/100], Loss: 0.5528, Accuracy: 0.7804
+test_loss: 0.6071, test_accuracy: 0.7734
+test_loss: 0.5211, test_accuracy: 0.8136
+best/test_loss 0.5759984850883484, best/test_acc: 0.7734375
+Epoch [43/100], Loss: 0.5750, Accuracy: 0.7569
+test_loss: 0.6240, test_accuracy: 0.7734
+test_loss: 0.5118, test_accuracy: 0.7684
+best/test_loss 0.5759984850883484, best/test_acc: 0.7734375
+Epoch [44/100], Loss: 0.5828, Accuracy: 0.7667
+test_loss: 0.5576, test_accuracy: 0.7734
+test_loss: 0.4632, test_accuracy: 0.8192
+best/test_loss 0.5575839281082153, best/test_acc: 0.7734375
+Epoch [45/100], Loss: 0.5813, Accuracy: 0.7843
+test_loss: 0.5786, test_accuracy: 0.7578
+test_loss: 0.4575, test_accuracy: 0.8023
+best/test_loss 0.5575839281082153, best/test_acc: 0.7734375
+Epoch [46/100], Loss: 0.5510, Accuracy: 0.7882
+test_loss: 0.9399, test_accuracy: 0.6562
+test_loss: 0.7357, test_accuracy: 0.7006
+best/test_loss 0.5575839281082153, best/test_acc: 0.7734375
+Epoch [47/100], Loss: 0.7094, Accuracy: 0.7176
+test_loss: 0.6690, test_accuracy: 0.6875
+test_loss: 0.5390, test_accuracy: 0.7458
+best/test_loss 0.5575839281082153, best/test_acc: 0.7734375
+Epoch [48/100], Loss: 0.6242, Accuracy: 0.7451
+test_loss: 0.6257, test_accuracy: 0.7578
+test_loss: 0.5345, test_accuracy: 0.7797
+best/test_loss 0.5575839281082153, best/test_acc: 0.7734375
+Epoch [49/100], Loss: 0.5552, Accuracy: 0.7765
+test_loss: 0.5697, test_accuracy: 0.7656
+test_loss: 0.4928, test_accuracy: 0.7966
+best/test_loss 0.5575839281082153, best/test_acc: 0.7734375
+Epoch [50/100], Loss: 0.5666, Accuracy: 0.7784
+test_loss: 0.6204, test_accuracy: 0.7500
+test_loss: 0.4785, test_accuracy: 0.8079
+best/test_loss 0.5575839281082153, best/test_acc: 0.7734375
+Epoch [51/100], Loss: 0.5628, Accuracy: 0.7922
+test_loss: 0.5357, test_accuracy: 0.7969
+test_loss: 0.4664, test_accuracy: 0.7910
+best/test_loss 0.5356974601745605, best/test_acc: 0.796875
+Epoch [52/100], Loss: 0.5509, Accuracy: 0.7745
+test_loss: 0.6903, test_accuracy: 0.6953
+test_loss: 0.5211, test_accuracy: 0.7797
+best/test_loss 0.5356974601745605, best/test_acc: 0.796875
+Epoch [53/100], Loss: 0.5524, Accuracy: 0.7922
+test_loss: 0.5153, test_accuracy: 0.8281
+test_loss: 0.4480, test_accuracy: 0.7966
+best/test_loss 0.5152819752693176, best/test_acc: 0.828125
+Epoch [54/100], Loss: 0.5154, Accuracy: 0.7941
+test_loss: 0.5731, test_accuracy: 0.7812
+test_loss: 0.4502, test_accuracy: 0.8362
+best/test_loss 0.5152819752693176, best/test_acc: 0.828125
+Epoch [55/100], Loss: 0.4997, Accuracy: 0.8098
+test_loss: 0.4630, test_accuracy: 0.8359
+test_loss: 0.4219, test_accuracy: 0.8475
+best/test_loss 0.4630131721496582, best/test_acc: 0.8359375
+Epoch [56/100], Loss: 0.4892, Accuracy: 0.8157
+test_loss: 0.4847, test_accuracy: 0.8125
+test_loss: 0.4297, test_accuracy: 0.8136
+best/test_loss 0.4630131721496582, best/test_acc: 0.8359375
+Epoch [57/100], Loss: 0.5524, Accuracy: 0.7725
+test_loss: 0.5616, test_accuracy: 0.7812
+test_loss: 0.4498, test_accuracy: 0.8249
+best/test_loss 0.4630131721496582, best/test_acc: 0.8359375
+Epoch [58/100], Loss: 0.5312, Accuracy: 0.7941
+test_loss: 0.5647, test_accuracy: 0.7812
+test_loss: 0.4276, test_accuracy: 0.8362
+best/test_loss 0.4630131721496582, best/test_acc: 0.8359375
+Epoch [59/100], Loss: 0.5083, Accuracy: 0.8059
+test_loss: 0.5292, test_accuracy: 0.8047
+test_loss: 0.4524, test_accuracy: 0.8136
+best/test_loss 0.4630131721496582, best/test_acc: 0.8359375
+Epoch [60/100], Loss: 0.4959, Accuracy: 0.8118
+test_loss: 0.5135, test_accuracy: 0.8203
+test_loss: 0.4422, test_accuracy: 0.8079
+best/test_loss 0.4630131721496582, best/test_acc: 0.8359375
+Epoch [61/100], Loss: 0.4833, Accuracy: 0.8275
+test_loss: 0.4796, test_accuracy: 0.8203
+test_loss: 0.3737, test_accuracy: 0.8475
+best/test_loss 0.4630131721496582, best/test_acc: 0.8359375
+Epoch [62/100], Loss: 0.4329, Accuracy: 0.8373
+test_loss: 0.5063, test_accuracy: 0.8281
+test_loss: 0.3985, test_accuracy: 0.8475
+best/test_loss 0.4630131721496582, best/test_acc: 0.8359375
+Epoch [63/100], Loss: 0.4376, Accuracy: 0.8392
+test_loss: 0.3975, test_accuracy: 0.8438
+test_loss: 0.3294, test_accuracy: 0.8757
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [64/100], Loss: 0.4680, Accuracy: 0.8196
+test_loss: 0.4654, test_accuracy: 0.8203
+test_loss: 0.4486, test_accuracy: 0.8362
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [65/100], Loss: 0.6085, Accuracy: 0.7275
+test_loss: 0.7139, test_accuracy: 0.6172
+test_loss: 0.5525, test_accuracy: 0.7175
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [66/100], Loss: 0.6483, Accuracy: 0.7059
+test_loss: 0.7029, test_accuracy: 0.6562
+test_loss: 0.5611, test_accuracy: 0.7288
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [67/100], Loss: 0.6475, Accuracy: 0.7039
+test_loss: 0.7313, test_accuracy: 0.6562
+test_loss: 0.5929, test_accuracy: 0.7401
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [68/100], Loss: 0.6561, Accuracy: 0.7059
+test_loss: 0.6960, test_accuracy: 0.6250
+test_loss: 0.5413, test_accuracy: 0.7458
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [69/100], Loss: 0.6376, Accuracy: 0.7039
+test_loss: 0.7159, test_accuracy: 0.6797
+test_loss: 0.5721, test_accuracy: 0.7514
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [70/100], Loss: 0.6329, Accuracy: 0.7196
+test_loss: 0.7177, test_accuracy: 0.6250
+test_loss: 0.5518, test_accuracy: 0.7401
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [71/100], Loss: 0.6522, Accuracy: 0.7157
+test_loss: 0.7990, test_accuracy: 0.6250
+test_loss: 0.5886, test_accuracy: 0.7119
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [72/100], Loss: 0.6910, Accuracy: 0.6706
+test_loss: 0.8063, test_accuracy: 0.6250
+test_loss: 0.6367, test_accuracy: 0.7062
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [73/100], Loss: 0.6895, Accuracy: 0.6706
+test_loss: 0.7923, test_accuracy: 0.5938
+test_loss: 0.6225, test_accuracy: 0.7175
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [74/100], Loss: 0.6747, Accuracy: 0.6824
+test_loss: 0.7855, test_accuracy: 0.6016
+test_loss: 0.6226, test_accuracy: 0.6893
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [75/100], Loss: 0.6739, Accuracy: 0.6588
+test_loss: 0.7906, test_accuracy: 0.6016
+test_loss: 0.6079, test_accuracy: 0.7006
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [76/100], Loss: 0.6855, Accuracy: 0.6843
+test_loss: 0.7862, test_accuracy: 0.6250
+test_loss: 0.6222, test_accuracy: 0.6949
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [77/100], Loss: 0.6771, Accuracy: 0.6824
+test_loss: 0.8325, test_accuracy: 0.5781
+test_loss: 0.6197, test_accuracy: 0.7119
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [78/100], Loss: 0.6880, Accuracy: 0.6627
+test_loss: 0.8378, test_accuracy: 0.6172
+test_loss: 0.6902, test_accuracy: 0.6949
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [79/100], Loss: 0.6579, Accuracy: 0.6902
+test_loss: 0.8013, test_accuracy: 0.6172
+test_loss: 0.6375, test_accuracy: 0.7232
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [80/100], Loss: 0.6907, Accuracy: 0.6686
+test_loss: 0.7822, test_accuracy: 0.6094
+test_loss: 0.6052, test_accuracy: 0.7401
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [81/100], Loss: 0.6631, Accuracy: 0.6902
+test_loss: 0.7772, test_accuracy: 0.6250
+test_loss: 0.6062, test_accuracy: 0.7514
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [82/100], Loss: 0.6776, Accuracy: 0.6765
+test_loss: 0.7699, test_accuracy: 0.6406
+test_loss: 0.6171, test_accuracy: 0.7401
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [83/100], Loss: 0.6575, Accuracy: 0.6902
+test_loss: 0.8085, test_accuracy: 0.6172
+test_loss: 0.6242, test_accuracy: 0.7345
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [84/100], Loss: 0.7058, Accuracy: 0.6706
+test_loss: 0.7950, test_accuracy: 0.6406
+test_loss: 0.5818, test_accuracy: 0.7401
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [85/100], Loss: 0.6809, Accuracy: 0.6980
+test_loss: 0.7701, test_accuracy: 0.6172
+test_loss: 0.5873, test_accuracy: 0.7006
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [86/100], Loss: 0.6764, Accuracy: 0.6706
+test_loss: 0.7276, test_accuracy: 0.6797
+test_loss: 0.5470, test_accuracy: 0.7514
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [87/100], Loss: 0.6649, Accuracy: 0.7157
+test_loss: 0.7771, test_accuracy: 0.6328
+test_loss: 0.5809, test_accuracy: 0.7062
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [88/100], Loss: 0.6894, Accuracy: 0.7020
+test_loss: 0.7539, test_accuracy: 0.6797
+test_loss: 0.5787, test_accuracy: 0.7684
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [89/100], Loss: 0.6558, Accuracy: 0.7137
+test_loss: 0.7187, test_accuracy: 0.6641
+test_loss: 0.5718, test_accuracy: 0.7514
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [90/100], Loss: 0.6718, Accuracy: 0.7098
+test_loss: 0.7284, test_accuracy: 0.6406
+test_loss: 0.5785, test_accuracy: 0.7458
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [91/100], Loss: 0.6587, Accuracy: 0.7373
+test_loss: 0.7126, test_accuracy: 0.6797
+test_loss: 0.5261, test_accuracy: 0.7627
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [92/100], Loss: 0.6100, Accuracy: 0.7294
+test_loss: 0.6685, test_accuracy: 0.7266
+test_loss: 0.5210, test_accuracy: 0.7514
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [93/100], Loss: 0.5854, Accuracy: 0.7647
+test_loss: 0.6179, test_accuracy: 0.7500
+test_loss: 0.4942, test_accuracy: 0.7740
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [94/100], Loss: 0.6086, Accuracy: 0.7216
+test_loss: 0.6541, test_accuracy: 0.7031
+test_loss: 0.5088, test_accuracy: 0.7740
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [95/100], Loss: 0.5649, Accuracy: 0.7431
+test_loss: 0.5529, test_accuracy: 0.7656
+test_loss: 0.4505, test_accuracy: 0.8305
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [96/100], Loss: 0.5305, Accuracy: 0.7784
+test_loss: 0.5233, test_accuracy: 0.7578
+test_loss: 0.4415, test_accuracy: 0.8023
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [97/100], Loss: 0.4885, Accuracy: 0.7863
+test_loss: 0.6090, test_accuracy: 0.7891
+test_loss: 0.4496, test_accuracy: 0.8249
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [98/100], Loss: 0.4545, Accuracy: 0.8137
+test_loss: 0.5162, test_accuracy: 0.8125
+test_loss: 0.4269, test_accuracy: 0.8192
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [99/100], Loss: 0.4557, Accuracy: 0.8216
+test_loss: 0.5774, test_accuracy: 0.7891
+test_loss: 0.4195, test_accuracy: 0.7853
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+Epoch [100/100], Loss: 0.5730, Accuracy: 0.7255
+test_loss: 0.5687, test_accuracy: 0.7422
+test_loss: 0.4843, test_accuracy: 0.8023
+best/test_loss 0.39746206998825073, best/test_acc: 0.84375
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mLSTM_pro2_zero[0m at: [34mhttps://wandb.ai/22373442/LLM_signal/runs/iyr9rlt7[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../autodl-fs/data/wandb/run-20250305_105806-iyr9rlt7/logs[0m

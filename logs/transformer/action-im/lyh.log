@@ -1,0 +1,97 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 22373442 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.7
+wandb: Run data is saved locally in /autodl-fs/data/wandb/run-20250308_224749-ngqomk2z
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Trans_action-im_lyh_im
+wandb: ⭐️ View project at https://wandb.ai/22373442/LLM_signal
+wandb: 🚀 View run at https://wandb.ai/22373442/LLM_signal/runs/ngqomk2z
+/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/transformer.py:379: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(
+True True
+Epoch [1/200], Loss: 1.6191, Accuracy: 0.2098
+test_loss: 1.6163, test_accuracy: 0.2143
+best/test_loss 1.6163005828857422, best/test_acc: 0.21428571428571427
+Epoch [2/200], Loss: 1.6170, Accuracy: 0.2098
+test_loss: 1.6164, test_accuracy: 0.2143
+best/test_loss 1.6163005828857422, best/test_acc: 0.21428571428571427
+Epoch [3/200], Loss: 1.6141, Accuracy: 0.2098
+test_loss: 1.6108, test_accuracy: 0.2143
+best/test_loss 1.610809564590454, best/test_acc: 0.21428571428571427
+Epoch [4/200], Loss: 1.6104, Accuracy: 0.2098
+test_loss: 1.6083, test_accuracy: 0.2143
+best/test_loss 1.6082568168640137, best/test_acc: 0.21428571428571427
+Epoch [5/200], Loss: 1.6054, Accuracy: 0.2098
+test_loss: 1.6030, test_accuracy: 0.2143
+best/test_loss 1.6030369997024536, best/test_acc: 0.21428571428571427
+Epoch [6/200], Loss: 1.6001, Accuracy: 0.2812
+test_loss: 1.5970, test_accuracy: 0.2679
+best/test_loss 1.5970458984375, best/test_acc: 0.26785714285714285
+Epoch [7/200], Loss: 1.5958, Accuracy: 0.2768
+test_loss: 1.5982, test_accuracy: 0.2679
+best/test_loss 1.5970458984375, best/test_acc: 0.26785714285714285
+Epoch [8/200], Loss: 1.5917, Accuracy: 0.2768
+test_loss: 1.5923, test_accuracy: 0.2679
+best/test_loss 1.5922558307647705, best/test_acc: 0.26785714285714285
+Epoch [9/200], Loss: 1.5895, Accuracy: 0.2768
+test_loss: 1.5846, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [10/200], Loss: 1.5876, Accuracy: 0.2768
+test_loss: 1.5920, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [11/200], Loss: 1.5871, Accuracy: 0.2768
+test_loss: 1.5865, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [12/200], Loss: 1.5890, Accuracy: 0.2768
+test_loss: 1.5861, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [13/200], Loss: 1.5872, Accuracy: 0.2768
+test_loss: 1.5985, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [14/200], Loss: 1.5873, Accuracy: 0.2768
+test_loss: 1.5888, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [15/200], Loss: 1.5872, Accuracy: 0.2768
+test_loss: 1.5906, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [16/200], Loss: 1.5871, Accuracy: 0.2768
+test_loss: 1.5952, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [17/200], Loss: 1.5873, Accuracy: 0.2768
+test_loss: 1.5907, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [18/200], Loss: 1.5872, Accuracy: 0.2768
+test_loss: 1.5864, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [19/200], Loss: 1.5872, Accuracy: 0.2768
+test_loss: 1.5889, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [20/200], Loss: 1.5872, Accuracy: 0.2768
+test_loss: 1.5915, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [21/200], Loss: 1.5873, Accuracy: 0.2768
+test_loss: 1.5882, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [22/200], Loss: 1.5872, Accuracy: 0.2768
+test_loss: 1.5909, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [23/200], Loss: 1.5871, Accuracy: 0.2768
+test_loss: 1.5908, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Epoch [24/200], Loss: 1.5871, Accuracy: 0.2768
+test_loss: 1.5884, test_accuracy: 0.2679
+best/test_loss 1.58461332321167, best/test_acc: 0.26785714285714285
+Traceback (most recent call last):
+  File "/autodl-fs/data/run.py", line 157, in <module>
+    loss.backward()
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mTrans_action-im_lyh_im[0m at: [34mhttps://wandb.ai/22373442/LLM_signal/runs/ngqomk2z[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../autodl-fs/data/wandb/run-20250308_224749-ngqomk2z/logs[0m

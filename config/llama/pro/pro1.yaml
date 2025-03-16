@@ -1,0 +1,12 @@
+train_dataset_name: "./dataset/pro/train_dataset_TENG.csv"
+test_dataset_name: "./dataset/pro/test_dataset_TENG.csv"
+test_label_name: "./dataset/pro/test_label_TENG.csv"
+
+answer_label_name: "./answer/pro_TENG_model_with_labels.csv"
+model_name: "./save_models/model_pro_TENG.pt"
+answer_csv_name: "./answer/pro_TENG_model.csv"
+
+label: 5
+
+wandb: True
+name: "llama_pro_TENG"

@@ -1,0 +1,12 @@
+train_dataset_name: "./dataset/eating/train_dataset_eating_2.csv"
+test_dataset_name: "./dataset/eating/test_dataset_eating_2.csv"
+test_label_name: "./dataset/eating/test_label_eating_2.csv"
+
+answer_label_name: "./answer/eating_model_with_labels.csv"
+model_name: "./save_models/model_eating.pt"
+answer_csv_name: "./answer/eating_model.csv"
+
+label: 3
+
+wandb: True
+name: "LSTM_eating"

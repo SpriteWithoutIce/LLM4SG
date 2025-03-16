@@ -1,0 +1,184 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 22373442 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.7
+wandb: Run data is saved locally in /autodl-fs/data/wandb/run-20250309_094417-u3307qc9
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LSTM_action_lyh_2
+wandb: ⭐️ View project at https://wandb.ai/22373442/LLM_signal
+wandb: 🚀 View run at https://wandb.ai/22373442/LLM_signal/runs/u3307qc9
+/autodl-fs/data/./patchTST.py:195: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_name))
+Namespace(train_dataset_name='./dataset/action/train_dataset_lyh_2.csv', test_dataset_name='./dataset/action/test_dataset_lyh_2.csv', test_label_name='./dataset/action/test_label_lyh_2.csv', answer_label_name='./answer/lyh_2_model_with_labels.csv', model_name='./save_models/model_lyh_2.pt', answer_csv_name='./answer/lyh_2_model.csv', label=5, wandb=True, name='LSTM_action_lyh_2')
+accuracy: 0.6296
+answer
+0    0.842105
+1    0.863636
+2    0.000000
+3    0.090909
+4    1.000000
+dtype: float64
+Predicted labels have been saved
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mLSTM_action_lyh_2[0m at: [34mhttps://wandb.ai/22373442/LLM_signal/runs/u3307qc9[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../autodl-fs/data/wandb/run-20250309_094417-u3307qc9/logs[0m
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 22373442 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: creating run
+wandb: Tracking run with wandb version 0.19.7
+wandb: Run data is saved locally in /autodl-fs/data/wandb/run-20250309_094458-dqjpz90m
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LSTM_action_yzt
+wandb: ⭐️ View project at https://wandb.ai/22373442/LLM_signal
+wandb: 🚀 View run at https://wandb.ai/22373442/LLM_signal/runs/dqjpz90m
+/autodl-fs/data/./patchTST.py:195: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_name))
+Namespace(train_dataset_name='./dataset/action/train_dataset_yzt.csv', test_dataset_name='./dataset/action/test_dataset_yzt.csv', test_label_name='./dataset/action/test_label_yzt.csv', answer_label_name='./answer/yzt_model_with_labels.csv', model_name='./save_models/model_yzt.pt', answer_csv_name='./answer/yzt_1_model.csv', label=4, wandb=True, name='LSTM_action_yzt')
+accuracy: 0.4766
+answer
+0    0.00000
+1    0.00000
+2    1.00000
+3    0.96875
+dtype: float64
+Predicted labels have been saved
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mLSTM_action_yzt[0m at: [34mhttps://wandb.ai/22373442/LLM_signal/runs/dqjpz90m[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../autodl-fs/data/wandb/run-20250309_094458-dqjpz90m/logs[0m
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 22373442 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: creating run
+wandb: Tracking run with wandb version 0.19.7
+wandb: Run data is saved locally in /autodl-fs/data/wandb/run-20250309_094537-q7wa3o8i
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LSTM_action_yzt_0815
+wandb: ⭐️ View project at https://wandb.ai/22373442/LLM_signal
+wandb: 🚀 View run at https://wandb.ai/22373442/LLM_signal/runs/q7wa3o8i
+/autodl-fs/data/./patchTST.py:195: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_name))
+Namespace(train_dataset_name='./dataset/action/train_dataset_yzt_0815.csv', test_dataset_name='./dataset/action/test_dataset_yzt_0815.csv', test_label_name='./dataset/action/test_label_yzt_0815.csv', answer_label_name='./answer/yzt_0815_model_with_labels.csv', model_name='./save_models/model_yzt_0815.pt', answer_csv_name='./answer/yzt_0815_model.csv', label=4, wandb=True, name='LSTM_action_yzt_0815')
+accuracy: 0.6581
+answer
+0    0.076923
+1    0.705882
+2    0.900000
+3    0.680000
+dtype: float64
+Predicted labels have been saved
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mLSTM_action_yzt_0815[0m at: [34mhttps://wandb.ai/22373442/LLM_signal/runs/q7wa3o8i[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../autodl-fs/data/wandb/run-20250309_094537-q7wa3o8i/logs[0m
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 22373442 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.7
+wandb: Run data is saved locally in /autodl-fs/data/wandb/run-20250309_094622-draonwme
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LSTM_action-im_lyh_im
+wandb: ⭐️ View project at https://wandb.ai/22373442/LLM_signal
+wandb: 🚀 View run at https://wandb.ai/22373442/LLM_signal/runs/draonwme
+/autodl-fs/data/./patchTST.py:195: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_name))
+Namespace(train_dataset_name='./dataset/action-im/train_dataset_lyh_im.csv', test_dataset_name='./dataset/action-im/test_dataset_lyh_im.csv', test_label_name='./dataset/action-im/test_label_lyh_im.csv', answer_label_name='./answer/lyh_2_model_with_labels.csv', model_name='./save_models/model_lyh_2.pt', answer_csv_name='./answer/lyh_2_model.csv', label=5, wandb=True, name='LSTM_action-im_lyh_im')
+accuracy: 0.7857
+answer
+0    1.000000
+1    1.000000
+2    0.000000
+3    0.833333
+4    1.000000
+dtype: float64
+Predicted labels have been saved
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mLSTM_action-im_lyh_im[0m at: [34mhttps://wandb.ai/22373442/LLM_signal/runs/draonwme[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../autodl-fs/data/wandb/run-20250309_094622-draonwme/logs[0m
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 22373442 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: creating run
+wandb: Tracking run with wandb version 0.19.7
+wandb: Run data is saved locally in /autodl-fs/data/wandb/run-20250309_094650-hd27lyqt
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LSTM_action-im_yzt_im
+wandb: ⭐️ View project at https://wandb.ai/22373442/LLM_signal
+wandb: 🚀 View run at https://wandb.ai/22373442/LLM_signal/runs/hd27lyqt
+/autodl-fs/data/./patchTST.py:195: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_name))
+Namespace(train_dataset_name='./dataset/action-im/train_dataset_yzt_im.csv', test_dataset_name='./dataset/action-im/test_dataset_yzt_im.csv', test_label_name='./dataset/action-im/test_label_yzt_im.csv', answer_label_name='./answer/yzt_im_model_with_labels.csv', model_name='./save_models/model_yzt_im.pt', answer_csv_name='./answer/yzt_im_1_model.csv', label=5, wandb=True, name='LSTM_action-im_yzt_im')
+accuracy: 0.7818
+answer
+0    0.615385
+1    0.923077
+2    1.000000
+3    1.000000
+4    0.400000
+dtype: float64
+Predicted labels have been saved
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mLSTM_action-im_yzt_im[0m at: [34mhttps://wandb.ai/22373442/LLM_signal/runs/hd27lyqt[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../autodl-fs/data/wandb/run-20250309_094650-hd27lyqt/logs[0m
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 22373442 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: creating run
+wandb: Tracking run with wandb version 0.19.7
+wandb: Run data is saved locally in /autodl-fs/data/wandb/run-20250309_094717-aat18w2h
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LSTM_pro_TENG
+wandb: ⭐️ View project at https://wandb.ai/22373442/LLM_signal
+wandb: 🚀 View run at https://wandb.ai/22373442/LLM_signal/runs/aat18w2h
+/autodl-fs/data/./patchTST.py:195: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_name))
+Namespace(train_dataset_name='./dataset/pro/train_dataset_TENG.csv', test_dataset_name='./dataset/pro/test_dataset_TENG.csv', test_label_name='./dataset/pro/test_label_TENG.csv', answer_label_name='./answer/pro_TENG_model_with_labels.csv', model_name='./save_models/model_pro_TENG.pt', answer_csv_name='./answer/pro_TENG_model.csv', label=5, wandb=True, name='LSTM_pro_TENG')
+accuracy: 0.7853
+answer
+0    0.724138
+1    1.000000
+2    0.238095
+3    0.690476
+4    0.985075
+dtype: float64
+Predicted labels have been saved
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mLSTM_pro_TENG[0m at: [34mhttps://wandb.ai/22373442/LLM_signal/runs/aat18w2h[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../autodl-fs/data/wandb/run-20250309_094717-aat18w2h/logs[0m
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 22373442 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.7
+wandb: Run data is saved locally in /autodl-fs/data/wandb/run-20250309_094808-w4q2f5rl
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LSTM_pro_2
+wandb: ⭐️ View project at https://wandb.ai/22373442/LLM_signal
+wandb: 🚀 View run at https://wandb.ai/22373442/LLM_signal/runs/w4q2f5rl
+/autodl-fs/data/./patchTST.py:195: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_name))
+Namespace(train_dataset_name='./dataset/pro/train_dataset_pro5.csv', test_dataset_name='./dataset/pro/test_dataset_pro5.csv', test_label_name='./dataset/pro/test_label_pro5.csv', answer_label_name='./answer/pro5_model_with_labels.csv', model_name='./save_models/model_pro5.pt', answer_csv_name='./answer/pro5_model.csv', label=5, wandb=True, name='LSTM_pro_2')
+accuracy: 0.5234
+answer
+0    0.896552
+1    0.444444
+2    0.000000
+3    0.266667
+4    0.833333
+dtype: float64
+Predicted labels have been saved
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mLSTM_pro_2[0m at: [34mhttps://wandb.ai/22373442/LLM_signal/runs/w4q2f5rl[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../autodl-fs/data/wandb/run-20250309_094808-w4q2f5rl/logs[0m
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 22373442 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.7
+wandb: Run data is saved locally in /autodl-fs/data/wandb/run-20250309_094848-rihsg653
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run LSTM_eating
+wandb: ⭐️ View project at https://wandb.ai/22373442/LLM_signal
+wandb: 🚀 View run at https://wandb.ai/22373442/LLM_signal/runs/rihsg653
+/autodl-fs/data/./patchTST.py:195: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(model_name))
+Namespace(train_dataset_name='./dataset/eating/train_dataset_eating_2.csv', test_dataset_name='./dataset/eating/test_dataset_eating_2.csv', test_label_name='./dataset/eating/test_label_eating_2.csv', answer_label_name='./answer/eating_model_with_labels.csv', model_name='./save_models/model_eating.pt', answer_csv_name='./answer/eating_model.csv', label=3, wandb=True, name='LSTM_eating')
+accuracy: 0.9569
+answer
+0    0.962963
+1    1.000000
+2    0.823529
+dtype: float64
+Predicted labels have been saved
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mLSTM_eating[0m at: [34mhttps://wandb.ai/22373442/LLM_signal/runs/rihsg653[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../autodl-fs/data/wandb/run-20250309_094848-rihsg653/logs[0m

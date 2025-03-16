@@ -17,8 +17,6 @@ import torch
 import torch.nn as nn
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-from utils.embedding import PositionalEmbedding, TokenEmbedding
-
 class QwenTS(nn.Module):
     def __init__(self, input_dim=1, seq_len=100, num_classes=4, device="cuda:0", qwen_layers=6):
         super(QwenTS, self).__init__()
@@ -44,8 +42,6 @@ class QwenTS(nn.Module):
         # 获取 hidden size
         hidden_size = self.qwen.config.hidden_size
 
-        self.token_embedding = TokenEmbedding(input_dim, hidden_size)
-        self.position_embedding = PositionalEmbedding(hidden_size, max_len=seq_len)
 
         # 定义输入数据的嵌入层
         self.embedding_layer = nn.Sequential(
@@ -65,10 +61,6 @@ class QwenTS(nn.Module):
         x = x.permute(0, 2, 1)  # 适配 Conv1d 输入格式
         x = self.embedding_layer(x)
         x = x.permute(0, 2, 1)  # 适配 Transformer 输入格式
-
-        # x = self.token_embedding(x)  # 形状: (batch_size, seq_len, hidden_size)
-        # pos_emb = self.position_embedding(x)  # (1, seq_len, hidden_size)
-        # x = x + pos_emb  # 位置编码加到 token embedding 上
 
         outputs = self.qwen(inputs_embeds=x)
         hidden_states = outputs.hidden_states

@@ -1,0 +1,26 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: 22373442 to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: creating run
+wandb: Tracking run with wandb version 0.19.7
+wandb: Run data is saved locally in /autodl-fs/data/wandb/run-20250308_224402-hgngdrqy
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run Trans_action-im_yzt_im
+wandb: ⭐️ View project at https://wandb.ai/22373442/LLM_signal
+wandb: 🚀 View run at https://wandb.ai/22373442/LLM_signal/runs/hgngdrqy
+True True
+Traceback (most recent call last):
+  File "/autodl-fs/data/run.py", line 118, in <module>
+    gpt_model = Transformer_TS(input_dim=1, seq_len=100, num_classes=args.label)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/autodl-fs/data/models/transformer.py", line 15, in __init__
+    encoder_layer = nn.TransformerEncoderLayer(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/transformer.py", line 712, in __init__
+    self.self_attn = MultiheadAttention(
+                     ^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 1071, in __init__
+    self.head_dim * num_heads == self.embed_dim
+AssertionError: embed_dim must be divisible by num_heads
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mTrans_action-im_yzt_im[0m at: [34mhttps://wandb.ai/22373442/LLM_signal/runs/hgngdrqy[0m
+[1;34mwandb[0m: Find logs at: [1;35m../../autodl-fs/data/wandb/run-20250308_224402-hgngdrqy/logs[0m
