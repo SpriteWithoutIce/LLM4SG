@@ -1,0 +1,10 @@
+numpy
+pandas
+peft==0.15.1
+psutil
+PyYAML
+scikit_learn
+torch
+torchvision
+transformers
+wandb
